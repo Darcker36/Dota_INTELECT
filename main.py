@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-# --- КОНФИГУРАЦИЯ ---
+# --- CONFIG ---
 RULES_FILE = 'dota_rules.json'
 
-# --- ЛОКАЛИЗАЦИЯ (СЛОВАРЬ ТЕКСТОВ) ---
+# --- LOCALIZATION (texts dictionary) ---
 TEXTS = {
     'en': {
         'welcome': "\n=== Dota 2 Impact Analyzer v1.0 ===\n   Developed by Darcker",
@@ -58,7 +58,7 @@ TEXTS = {
     }
 }
 
-# Глобальная переменная для языка
+# Global variable for language choice
 CURRENT_LANG = 'en'
 
 def t(key, *args):
@@ -77,7 +77,7 @@ def select_language():
         if choice == '1': return 'en'
         if choice == '2': return 'ru'
 
-# --- ОСНОВНЫЕ ФУНКЦИИ ---
+# --- Main functions ---
 
 def load_rules():
     try:
