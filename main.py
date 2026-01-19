@@ -147,6 +147,8 @@ def calculate_score(player_stats, match_averages, role_weights):
     )
     return score
 
+# --- MAIN ---
+
 def main():
     global CURRENT_LANG
     CURRENT_LANG = select_language()
