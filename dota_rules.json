@@ -1,0 +1,20 @@
+{
+    "Core": {
+        "gpm_ratio": 30.3,
+        "xpm_ratio": 20.98,
+        "dmg_ratio": 5.18,
+        "kills": 5.5,
+        "deaths": 12.25,
+        "assists": 18.45,
+        "last_hits": 7.34
+    },
+    "Support": {
+        "gpm_ratio": 27.8,
+        "xpm_ratio": 31.1,
+        "dmg_ratio": 5.54,
+        "kills": 3.84,
+        "deaths": 9.14,
+        "assists": 15.91,
+        "last_hits": 6.66
+    }
+}
